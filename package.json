@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "discord.js": "^14.10.2",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "deploy-commands": "node deploy-commands.js"
+  }
+}
